@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <title>SwypePay</title>
+  </head>
+  <body>
+    <div class="sms">
+      <span class="material-icons">
+        chat_bubble_outline
+      </span>
+    </div>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar__topbar">
+          <img
+            class="sidebar__topbar--logo"
+            src="../assets/img/logo_main.png"
+          />
+          <h5 class="sidebar__topbar--name">TERRA SOFTWORKS LIMITED</h5>
+          <h5 class="sidebar__topbar--account">Business Account-TERR79A1</h5>
+          <p class="sidebar__topbar--new">
+            Add a new business account?
+          </p>
+        </div>
+        <div class="navigation">
+          <div class="sidebar__nav--item">
+            <div class="select"></div>
+            <span id="active" class="material-icons">looks</span>
+            <a id="active" href="#">OVERVIEW</a>
+          </div>
+          <div class="sidebar__nav--item">
+            <span class="material-icons">
+              person_outline
+            </span>
+            <a href="#">CUSTOMERS</a>
+            <span class="beta">BETA</span>
+          </div>
+          <div class="sidebar__nav--item">
+            <span class="material-icons">
+              payments
+            </span>
+            <a href="#">BUSINESS OUTLETS</a>
+          </div>
+          <div class="sidebar__nav--item">
+            <span class="material-icons">
+              settings_cell
+            </span>
+            <a href="#">TRANSFER MONEY</a>
+          </div>
+          <div class="sidebar__nav--item">
+            <span class="material-icons">
+              signal_cellular_alt
+            </span>
+            <a href="#">TRANSACTIONS</a>
+          </div>
+          <div class="sidebar__nav--item">
+            <span class="material-icons">
+              vertical_align_bottom
+            </span>
+            <a href="#">WITHDRAW FUNDS</a>
+          </div>
+          <div class="sidebar__nav--item">
+            <span class="material-icons">
+              add
+            </span>
+            <a href="#">BANKING</a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <header class="content__header">
+          <h6 class="content__header--name">Business Dashboard</h6>
+          <nav class="content__header--nav-items">
+            <a href="#">
+              <span class="notifications">
+                <p class="notification-count">0</p></span
+              ><span class="verticle-align">Messages</span
+              ><span class="expand-arrow"></span
+            ></a>
+            <a href="#">
+              <span class="material-icons"> tune </span
+              ><span class="verticle-align">Access Logs</span>
+              <span class="expand-arrow"></span>
+            </a>
+          </nav>
+        </header>
+        <div class="content__container">
+          <div class="overview">
+            <div class="overview__card">
+              <div class="overview__card--content">
+                <span
+                  style="color: #eaab39;"
+                  id="icon-size"
+                  class="material-icons"
+                >
+                  signal_cellular_alt
+                </span>
+                <div class="details">
+                  <p>Transactions</p>
+                  <h1>528</h1>
+                </div>
+              </div>
+              <span class="material-icons">
+                sync
+              </span>
+              <span class="details__desc">Transactions Processed</span>
+            </div>
+          </div>
+          <div class="overview">
+            <div class="overview__card">
+              <div class="overview__card--content">
+                <span
+                  style="color: green;"
+                  id="icon-size"
+                  class="material-icons"
+                >
+                  account_balance_wallet
+                </span>
+                <div class="details">
+                  <p>Available</p>
+                  <h1><span style="font-size: 0.4em;">Ksh</span>20,128</h1>
+                </div>
+              </div>
+              <span class="material-icons">
+                sync
+              </span>
+              <span class="details__desc">Available Balance in (Ksh)</span>
+            </div>
+          </div>
+          <div class="overview">
+            <div id="cart" class="notifications"><span>52</span></div>
+            <div class="overview__card">
+              <div class="overview__card--content">
+                <span style="color: red;" id="icon-size" class="material-icons">
+                  add_shopping_cart
+                </span>
+                <div class="details">
+                  <p>Shop Orders</p>
+                  <h1>54</h1>
+                </div>
+              </div>
+              <span class="material-icons">
+                sync
+              </span>
+              <span class="details__desc">Online Shop Orders</span>
+            </div>
+          </div>
+          <div id="customers-card" class="overview">
+            <div class="overview__card">
+              <div class="overview__card--content">
+                <span
+                  style="color: #82daf7;"
+                  id="icon-size"
+                  class="material-icons"
+                >
+                  person_outline
+                </span>
+                <div class="details">
+                  <p>Customers</p>
+                  <h1>32</h1>
+                </div>
+              </div>
+              <span class="material-icons">
+                sync
+              </span>
+              <span class="details__desc">Customer Information</span>
+            </div>
+          </div>
+        </div>
+        <div id="chart">
+          <h5>Scale Overview - 2020</h5>
+          <p>A snapshot of how your business revenue is performing this year</p>
+          <canvas id="myChart" class="chartjs"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="../assets/js/shared.js"></script>
+  </body>
+</html>

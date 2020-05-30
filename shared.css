@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500&display=swap" rel="stylesheet');
+body {
+    font-family: 'Muli', Arial, sans-serif;
+    padding: 0;
+}
+html {
+  background-color: #F8F9F9;
+}
+.container {
+  display: flex;
+}
+.navigation {
+    border-right: 1px solid lightgray;
+    height: 100vh;
+}
+#active{
+  color: red;  
+}
+.terra-logo {
+  margin-left: 1rem;
+}
+.terra-logo img {
+  height: 40px; 
+}
+.sms {
+  position: fixed;
+  background-color: #409ed8;
+  color: #fff;
+  bottom: 4rem;
+  right: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+.sms span {
+  font-size: 2.5rem;
+  margin: .6rem 0;
+}
+.expand-arrow {
+    height: 8px;
+    display: inline-block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid;
+    margin: 0 4px;
+}
+.notifications {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background: gray;
+    display: inline-block;
+    position: relative;
+    vertical-align: super;
+}
+.notification-count {
+    position: absolute;
+    top: -13px;
+    right: 6px;
+    z-index: 1;
+    font-size: 0.7em;
+    color: white;
+    font-weight: bolder;
+}
+.verticle-align {
+    vertical-align: super;
+    margin: 0.2em;
+}
+.sidebar {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 25%;
+  color: gray;
+}
+.sidebar__topbar {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid lightgray;
+}
+.sidebar__topbar--logo {
+  height: 6rem;
+}
+.sidebar__topbar--name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.sidebar__topbar--account {
+  background: gray;
+  color: #fff;
+  width: 14rem;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.sidebar__topbar--new {
+  border-bottom: 1.3px solid #ccc;
+  width: 16rem;
+  padding-bottom: 1.5rem;
+  margin-top: 0;
+  color: #82daf7;
+}
+.sidebar__nav--item {
+    position: relative;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    color: gray;
+    font-weight: bold;
+    font-size: 0.8rem;
+
+}
+.sidebar__nav--item span {
+    color: gray;
+    margin-right: 1em;
+    z-index: 23;
+}
+.sidebar__nav--item .select {
+    top: -5px;
+    right: 0px;
+    position: absolute;
+    border-top: 14px solid transparent;
+    border-right: 14px solid lightgray;
+    border-bottom: 14px solid transparent;
+}
+.sidebar__nav--item a {
+    text-decoration: none;
+    color: gray;
+    vertical-align: super;
+}
+.beta {
+    background: orange;
+    border-radius: 2px;
+    font-size: .8rem;
+    color: #fff !important;
+    margin-left: 0.4rem;
+    display: inline-block;
+    vertical-align: super;
+    width: 3rem;
+    padding: 1px;
+    text-align: center;
+}
+.content {
+    width: 100%;
+}
+.content__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    border-bottom: 1px solid #ccc;
+}
+.content__header--nav-items {
+    margin: 1rem;
+}
+.content__header--nav-items a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: .5rem;
+}
+.content__header--name {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.stock-container {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+}
+.stock {
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: .7rem;
+  background: #fff;
+}
+.stock__item-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.stock__item-card--price{
+ align-self: flex-end;
+ margin-top: .5rem;
+}
+.stock__item-card--name {
+ color: gray;
+ margin-bottom: .5rem;
+}
+.rating {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.rating__score {
+  color: gray;
+  margin-bottom: .3rem;
+}
+
+.rating__icons {
+ color: orange;
+ margin-top: 0;
+ margin-left: 1rem; 
+}
+.sme {
+  position: relative;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+}
+.sme p {
+  position: absolute;
+  top: -0.59em;
+  left: 4.5rem;
+  z-index: 1;
+  margin: 0;
+  background-color: #F8F9F9;
+  width: 7rem;
+  text-align: center;
+}
+#sms__top {
+  position: absolute;
+  top: -14px;
+  right: 0;
+
+}
+.terra-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  background-color: lightgreen;
+  color: #fff;
+}
+.terra-header a {
+  color: #fff;
+}
+.terra-header__cancel {
+  margin-left: 1rem;
+  font-weight: 900;
+
+}
+.terra-products-overview {
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  background: #eaeaea;;
+}
+.terra-business-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  height: 4rem;
+}
+.terra-business-info__icons{
+  display: flex;
+  justify-content: space-around;
+  width: 12rem;
+}
+.terra-notifications-icon {
+  height: 1em;
+  width: 1em;
+  top: -8px;
+  right: 12px;
+  border-radius: 50%;
+  background: #409ed8;
+  display: inline-block;
+  position: relative;
+  vertical-align: super;
+}
+.terra-notifications-icon__count {
+  position: absolute;
+  top: -10px;
+  right: 5.3px;
+  z-index: 1;
+  font-size: 0.7em;
+  color: white;
+  font-weight: bolder;
+}
