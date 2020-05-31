@@ -69,6 +69,8 @@ img {
     width: 10em;
     margin: 1rem;
     border: 1px solid #ccc;
+    animation: bounce;
+    animation-duration: 4s;
 }
 .payment-option__icon img {
     height: 4em;
@@ -111,6 +113,8 @@ img {
 .card-banner img {
     height: 220px;
     margin-top: 2rem;
+    animation: bounce;
+    animation-duration: 4s;
 }
 .info {
     display: flex;

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="704px" viewBox="0 0 1440 704" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="1058.75" cy="245.75" r="8.75"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="1041.75" cy="46.75" r="8.75"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="1175.75" cy="623.75" r="8.75"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <circle id="path-7" cx="711.75" cy="424.75" r="8.75"></circle>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <circle id="path-9" cx="782.75" cy="663.75" r="8.75"></circle>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <circle id="path-11" cx="161.75" cy="672.75" r="8.75"></circle>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <circle id="path-13" cx="50.75" cy="479.75" r="8.75"></circle>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <circle id="path-15" cx="104.75" cy="201.75" r="8.75"></circle>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <circle id="path-17" cx="655.75" cy="167.75" r="8.75"></circle>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="17.5" height="17.5" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+    </defs>
+    <g id="v2-redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <use id="Oval-11-Copy-6" stroke="#DBE5F1" mask="url(#mask-2)" stroke-width="7.5" xlink:href="#path-1"></use>
+            <use id="Oval-11-Copy-13" stroke="#DBE5F1" mask="url(#mask-4)" stroke-width="7.5" xlink:href="#path-3"></use>
+            <use id="Oval-11-Copy-12" stroke="#DBE5F1" mask="url(#mask-6)" stroke-width="7.5" xlink:href="#path-5"></use>
+            <use id="Oval-11-Copy-8" stroke="#DBE5F1" mask="url(#mask-8)" stroke-width="7.5" xlink:href="#path-7"></use>
+            <use id="Oval-11-Copy-15" stroke="#DBE5F1" mask="url(#mask-10)" stroke-width="7.5" xlink:href="#path-9"></use>
+            <use id="Oval-11-Copy-18" stroke="#DBE5F1" mask="url(#mask-12)" stroke-width="7.5" xlink:href="#path-11"></use>
+            <use id="Oval-11-Copy-19" stroke="#DBE5F1" mask="url(#mask-14)" stroke-width="7.5" xlink:href="#path-13"></use>
+            <use id="Oval-11-Copy-17" stroke="#DBE5F1" mask="url(#mask-16)" stroke-width="7.5" xlink:href="#path-15"></use>
+            <use id="Oval-11-Copy-7" stroke="#DBE5F1" mask="url(#mask-18)" stroke-width="7.5" xlink:href="#path-17"></use>
+            <g id="Group-17-Copy-3" transform="translate(1361.727922, 120.727922) rotate(45.000000) translate(-1361.727922, -120.727922) translate(1352.727922, 111.727922)" fill="#DAE4F1">
+                <rect id="Rectangle-30" x="6.66666667" y="0" width="4.16666667" height="17.5"></rect>
+                <rect id="Rectangle-30" transform="translate(8.750000, 8.750000) rotate(90.000000) translate(-8.750000, -8.750000) " x="6.66666667" y="5.68434189e-13" width="4.16666667" height="17.5"></rect>
+            </g>
+            <g id="Group-17-Copy-12" transform="translate(321.727922, 42.727922) rotate(45.000000) translate(-321.727922, -42.727922) translate(312.727922, 33.727922)" fill="#DAE4F1">
+                <rect id="Rectangle-30" x="6.66666667" y="0" width="4.16666667" height="17.5"></rect>
+                <rect id="Rectangle-30" transform="translate(8.750000, 8.750000) rotate(90.000000) translate(-8.750000, -8.750000) " x="6.66666667" y="5.68434189e-13" width="4.16666667" height="17.5"></rect>
+            </g>
+            <g id="Group-17-Copy-10" transform="translate(1080.727922, 475.727922) rotate(45.000000) translate(-1080.727922, -475.727922) translate(1071.727922, 466.727922)" fill="#DAE4F1">
+                <rect id="Rectangle-30" x="6.66666667" y="0" width="4.16666667" height="17.5"></rect>
+                <rect id="Rectangle-30" transform="translate(8.750000, 8.750000) rotate(90.000000) translate(-8.750000, -8.750000) " x="6.66666667" y="5.68434189e-13" width="4.16666667" height="17.5"></rect>
+            </g>
+            <g id="Group-17-Copy-11" transform="translate(1427.727922, 376.727922) rotate(45.000000) translate(-1427.727922, -376.727922) translate(1418.727922, 367.727922)" fill="#DAE4F1">
+                <rect id="Rectangle-30" x="6.66666667" y="0" width="4.16666667" height="17.5"></rect>
+                <rect id="Rectangle-30" transform="translate(8.750000, 8.750000) rotate(90.000000) translate(-8.750000, -8.750000) " x="6.66666667" y="5.68434189e-13" width="4.16666667" height="17.5"></rect>
+            </g>
+            <g id="Group-17-Copy-9" transform="translate(334.727922, 518.727922) rotate(45.000000) translate(-334.727922, -518.727922) translate(325.727922, 509.727922)" fill="#DAE4F1">
+                <rect id="Rectangle-30" x="6.66666667" y="0" width="4.16666667" height="17.5"></rect>
+                <rect id="Rectangle-30" transform="translate(8.750000, 8.750000) rotate(90.000000) translate(-8.750000, -8.750000) " x="6.66666667" y="5.68434189e-13" width="4.16666667" height="17.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

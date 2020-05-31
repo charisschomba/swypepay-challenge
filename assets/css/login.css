@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #F8F9F9 url("../img/login_background.svg");
+    background-size: contain;
+    
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 6rem 0;
+    margin-bottom: 1.6rem;
+    width: 33.3%;
+    border-radius: 6px;
+    box-shadow: 0 3px 4px -3px grey;
+
+}
+img {
+    height: 6rem;
+}
+.signin-text {
+    margin-top: 0;
+    color: gray;
+    font-size: 1rem;
+    width: 100%;
+    padding-bottom: .5rem;
+    text-align: center;
+    border-bottom: 1px solid  #F1EAE0;;
+}
+.login-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: .5em;
+}
+label {
+    color: #ccc;
+    font-weight: bold;
+}
+input {
+    height: 2.7em;
+    margin-top: .5rem;
+    border: 1px solid #CCC5B9;
+    border-radius: 3px;
+    background-color: #F8F9F9;
+}
+::placeholder {
+    color: #ccc;
+}
+.login-btn-section {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 1.7em;
+    padding-bottom: 1.7em;
+    border-bottom: 1px solid  #F1EAE0;
+}
+.login-btn-section p {
+    margin: 0;
+}
+.login-btn-section__text {
+    vertical-align: super;
+    font-size: .8em;
+    margin-right: 1em;
+}
+.sign-in-btn {
+    width: 64%;
+    height: 2.7em;
+    margin-left: 2em;
+    border: #F1EAE0;;
+    color: white;
+    background-color: #68B3C8;;
+    border-radius: 15px;
+}
+.policy-section  {
+    display: flex;
+    width: 100%;
+    color: gray;
+    justify-content: center;
+}
+.policy-section p {
+    font-size: .65em;
+    text-align: center;
+    vertical-align: super;
+    margin: 0;
+    padding-top: .3em;
+}
+.forgot-pwd a {
+    text-decoration: none;
+    color: #409ed8;
+}
+.sign-up {
+    height: 2.3em;
+    border-radius: 15px;
+    border: 2px solid #68B3C8;
+    width: 6em;
+    color: #68B3C8;
+}
+.signup-text {
+    font-size: .8em;
+    font-weight: bold;
+    color: gray;
+}
+@media (max-width: 40rem){
+    .login-form {
+        width: 90%;
+        margin: 1rem 1rem;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .login-fields {
+        flex-direction: column;
+    }
+    label {
+        padding: 1rem 0;
+    }
+    .sign-in-btn {
+        width: 52%;
+    }
+    input {
+        margin-top: 0;
+    }
+}
